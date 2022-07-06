@@ -24,6 +24,6 @@ Essa será uma aplicação onde o seu principal objetivo é criar um hook de 
     const storagedCart = localStorage.getItem('@RocketShoes:cart');
     ```
   - Mostrar erros com toastify.
-    [React Toastify][https://github.com/fkhadra/react-toastify#readme]
+    [React Toastify](https://github.com/fkhadra/react-toastify#readme)
 
 ## O que devo editar na aplicação?
