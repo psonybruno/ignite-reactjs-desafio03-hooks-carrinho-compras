@@ -27,3 +27,9 @@ Essa será uma aplicação onde o seu principal objetivo é criar um hook de 
     [React Toastify](https://github.com/fkhadra/react-toastify#readme)
 
 ## O que devo editar na aplicação?
+Com o template já clonado, as depêndencias instaladas e a [fake API rodando](https://www.notion.so/Desafio-01-Criando-um-hook-de-carrinho-de-compras-5769216778794019a83f544e79167b12), você deve completar onde não possui código com o código para atingir os objetivos de cada teste. Os documentos que devem ser editados são:
+
+- **src/components/Header/index.tsx**
+- **src/pages/Home/index.tsx**
+- **src/pages/Cart/index.tsx**
+- **src/hooks/useCart.tsx**
