@@ -33,3 +33,29 @@ Com o template já clonado, as depêndencias instaladas e a [fake API rodando](h
 - **src/pages/Home/index.tsx**
 - **src/pages/Cart/index.tsx**
 - **src/hooks/useCart.tsx**
+
+## Especificação dos testes
+- Teste components/Header/index.tsx
+  - [x] - should be able to render the amount of products added to cart
+
+- Teste pages/Home/index.tsx
+  - [x] - should be able to render each product quantity added to cart
+  - [x] - should be able to add a product to cart
+
+- Testes pages/Cart/index.tsx
+  - [x] - should be able to increase/decrease a product amount
+  - [x] - should not be able to decrease a product amount when value is 1
+  - [x] - should be able to remove a product
+
+- Testes hooks/useCart.tsx
+  - [x] - should be able to initialize cart with localStorage value
+  - [x] - should be able to add a new product
+  - [x] - should not be able add a product that does not exist
+  - [x] - should be able to increase a product amount when adding a product that already exists on cart
+  - [x] - should not be able to increase a product amount when running out of stock
+  - [x] - should be able to remove a product
+  - [x] - should not be able to remove a product that does not exist
+  - [x] - should be able to update a product amount
+  - [x] - should not be able to update a product that does not exist
+  - [x] - should not be able to update a product amount when running out of stock
+  - [x] - should not be able to update a product amount to a value smaller than 1
